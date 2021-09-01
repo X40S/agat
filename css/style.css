@@ -1,0 +1,421 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: #e1e2e1;
+    text-decoration: none;
+    display: inline-block;
+}
+
+@font-face {
+    font-family: AmericanCaptain;
+    src: url(../font/AmericanCaptain.otf);
+}
+
+body {
+    z-index: -3;
+    width: 100%;
+    position: absolute;
+    color: #484848;
+    font-family: 'Oswald', sans-serif;
+    background-image: url(../images/oriental-tiles.png) !important;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1168px;
+}
+
+header {
+    background-color: #1d1e3d;
+    border-top: solid #ff6600 3px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.btn__menu {
+    width: 60px;
+    display: none;
+}
+
+.btn__menu div {
+    height: 3px;
+    background-color: #ff6600;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.menu__list ul {
+    display: flex;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.menu__list li+li {
+    margin-left: 22px;
+}
+
+.menu__contact {
+    padding-left: 79px;
+    display: flex;
+    margin-top: -6px;
+}
+
+.menu__contact img {
+    transform: translate(10px, 5px);
+}
+
+.menu__list :hover {
+    color: #ff6600;
+}
+
+.logo img {
+    width: 57px;
+    height: 59px;
+    margin-left: 27px;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner__inner {
+    position: absolute;
+    width: 100%;
+    z-index: -2;
+    background-image: url(../images/background.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.banner__logo {
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 2%;
+}
+
+.banner__logo img {
+    width: 16%;
+}
+
+.banner__text {
+    text-align: center;
+    font-family: AmericanCaptain;
+    font-size: 7vw;
+}
+
+.text__top {
+    color: #081272;
+}
+
+.text__bottom {
+    color: #ff6600;
+    padding-bottom: 10%;
+}
+
+.about {
+    margin-left: -50%;
+    left: 50%;
+    width: 100%;
+    padding-top: 65%;
+    background-image: url(../images/about__img.png) !important;
+    background-repeat: no-repeat;
+    background-position-x: 87%;
+    background-position-y: 88%;
+    background-size: 43%;
+    position: absolute;
+    z-index: -2;
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 0;
+}
+
+.about__inner {
+    padding: 0 10px;
+    padding-bottom: 22%;
+}
+
+.about__text {
+    width: 48%;
+}
+
+.about__header {
+    font-family: AmericanCaptain;
+    font-size: 3vw;
+    color: #ff6301;
+}
+
+/* .about__header-2 {
+    font-family: AmericanCaptain;
+    font-size: 2.5vw;
+    padding-top: 1.42%;
+} */
+
+.about__descr {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.13vw;
+    padding-top: 3%;
+    line-height: 1.5vw;
+}
+
+.about__img {
+    width: auto;
+    max-height: 100%;
+}
+
+/* .service {
+    margin-top: 104.1%;
+    padding-top: 8%;
+    background-image: url(../images/service__background.png);
+} */
+
+.service {
+    background-image: url(../images/service__background.png) !important;
+    margin-top: 104.1%;
+}
+
+.team__header {
+    font-family: AmericanCaptain;
+    font-size: 3vw;
+    text-align: center;
+    padding-top: 8%;
+    color: #272f37;
+    padding-bottom: 7.8%;
+}
+
+.member__background {
+    background-color: rgba(163, 190, 221, 0.4);
+    ;
+}
+
+.member__background+.member__background {
+    margin-top: 11.5%;
+}
+
+.member {
+    display: flex;
+    margin: 0 10px;
+    justify-content: space-around;
+    height: 16vw;
+}
+
+.member__name {
+    font-family: AmericanCaptain;
+    font-size: 2.2vw;
+    margin-top: 7vw;
+}
+
+.member img {
+    height: 17vw;
+    border: solid 0.6vw #ff6600;
+    border-radius: 50%;
+    margin-top: -0.5vw;
+}
+
+.service__list ul {
+    display: flex !important;
+}
+
+.service__list li+li {
+    padding-left: 1.5%;
+}
+
+.service__list img {
+    width: 92.8%;
+    height: auto;
+}
+
+.service__list-text {
+    width: 92.8%;
+}
+
+.service__list-header {
+    font-family: AmericanCaptain;
+    font-size: 2.2vw;
+    padding-bottom: 3%;
+    padding-top: 1.5%;
+}
+
+.service__list-descr {
+    font-size: 1.13vw;
+    padding-bottom: 20.55%;
+}
+
+.service__header {
+    color: #272f37;
+    font-family: AmericanCaptain;
+    font-size: 3vw;
+    text-align: center;
+    padding-bottom: 4.5%;
+}
+
+.portfolio__header {
+    font-family: AmericanCaptain;
+    font-size: 3vw;
+    text-align: center;
+    padding-top: 8%;
+    color: #272f37;
+}
+
+.portfolio {
+    background-position-y: 3px;
+    background-size: cover;
+    background-image: url(../images/portfolio__bacground.png) !important;
+    background-repeat: no-repeat;
+    margin-top: 11.5%;
+}
+
+.slider__inner {
+    padding: 0 10px;
+}
+
+.slider__item {
+    margin: 0 auto;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider {
+    padding-bottom: 45px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 4.5%;
+}
+
+.slick-dots {
+    bottom: 12px;
+}
+
+.slick-prev .slick-next {
+    z-index: 10;
+}
+
+.slick-prev {
+    z-index: 10;
+}
+
+.back__button {
+    position: absolute;
+    z-index: 10;
+    opacity: 0.4
+}
+
+.back__button img {
+    width: 35px;
+    transform: rotate(90deg);
+    right: 11px;
+    bottom: 16px;
+    position: fixed;
+}
+
+.back__button:hover {
+    opacity: 1;
+}
+
+.contact {
+    color: #dcdcdc;
+    margin-top: 17%;
+    height: 100%;
+    background-image: url(../images/contact__background.jpg) !important;
+}
+
+.contact__inner {
+    margin: 0 auto;
+}
+
+.contact__list {
+    text-align: center;
+    padding-top: 8.3%;
+}
+
+.contact__list ul {
+    display: flex;
+    justify-content: center;
+}
+
+.contact__list li+li {
+    border-left: solid 1px #dcdcdc;
+}
+
+#phone {
+    width: 26.456%;
+    padding-left: 6%;
+    padding-right: 6%;
+    border-left: 1px solid #dcdcdc;
+}
+
+#location {
+    width: 26.456%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+#mail {
+    width: 26.456%;
+    padding-left: 6%;
+    border-right: 1px solid #dcdcdc;
+    padding-right: 6%;
+}
+
+.list__icon {
+    height: 25%;
+}
+
+.list__icon img {
+    height: 100%;
+}
+
+.list__header {
+    font-size: 1.18vw;
+    font-family: AmericanCaptain;
+    padding-top: 11%;
+}
+
+.list__descr {
+    margin: 0 auto;
+    font-size: 1vw;
+    width: 11.64vw;
+    text-align: center;
+    padding-top: 9.559%;
+    line-height: 1.6vw;
+}
+
+#number__list ul {
+    display: block;
+    line-height: 1.5vw;
+}
+
+#number__list li {
+    border: none;
+}
+
+.social__list ul {
+    text-align: center;
+    padding-top: 7%;
+}
+
+.social__list img {
+    width: 91.23%;
+    padding: 5px;
+}
+
+#map {
+    padding-top: 5%;
+    width: 79.025%;
+    margin: 0 auto;
+}
+
+footer {
+    padding-top: 33px;
+    background-color: #14141a;
+    height: 35px;
+}

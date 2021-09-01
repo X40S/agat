@@ -1,0 +1,166 @@
+@media (max-width: 1050px) {
+    #map {
+        width: 816px;
+    }
+    #map iframe {
+        width: 816px;
+    }
+}
+
+@media (max-width: 875px) {
+    #map {
+        width: 713px;
+    }
+    #map iframe {
+        width: 713px;
+    }
+}
+
+@media (max-width: 768px) {
+    .back__button {
+        display: none;
+    }
+    .about__header {
+        font-size: 4vw;
+    }
+    /* .about__header-2 {
+        font-size: 3vw;
+    } */
+    .about__descr {
+        font-size: 2vw;
+        line-height: 2.5vw;
+    }
+    .portfolio__header {
+        font-size: 4vw;
+    }
+    .team__header {
+        font-size: 4vw;
+    }
+    .about {
+        background-position-y: 76%;
+    }
+    .member__name {
+        font-size: 2.8vw;
+    }
+    .list__header {
+        font-size: 2vw;
+    }
+    .list__descr {
+        font-size: 2vw;
+        line-height: 2.6vw;
+    }
+    #number__list ul {
+        line-height: 2.5vw;
+    }
+    .service {
+        margin-top: 116.1%;
+    }
+}
+
+@media (max-width: 742px) {
+    #map {
+        width: 670px;
+    }
+    #map iframe {
+        width: 670px;
+    }
+}
+
+@media (max-width: 728px) {
+    .menu__list :hover {
+        color: #ff6600;
+    }
+    .menu__list ul {
+        display: block;
+        padding-right: 0px;
+    }
+    header {
+        border-bottom: 1px solid #ff6600;
+    }
+    .menu__list li+li {
+        margin-left: 0px;
+    }
+    .menu__contact {
+        padding-left: 0px;
+        margin: 0 auto;
+        display: block;
+    }
+    .menu__list a {
+        display: block;
+        padding: 10px 0;
+        border-bottom: 1px solid #ff6600;
+    }
+    .menu__list {
+        display: none;
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        margin-left: -50%;
+        text-align: center;
+        background-color: #1d1e3d;
+        width: 100%;
+        margin-top: 74px;
+        z-index: -1;
+    }
+    .btn__menu {
+        display: block;
+    }
+    #map {
+        width: 610px;
+    }
+    #map iframe {
+        width: 610px;
+    }
+}
+
+@media (max-width: 656px) {
+    #map {
+        width: 475px;
+    }
+    #map iframe {
+        width: 475px;
+    }
+}
+
+@media (max-width: 520px) {
+    #map {
+        width: 380px;
+    }
+    #map iframe {
+        width: 380px;
+    }
+}
+
+@media (max-width: 482px) {}
+
+@media (max-width: 412px) {
+    #map {
+        width: 273px;
+    }
+    #map iframe {
+        width: 273px;
+    }
+}
+
+@media (max-width: 372px) {
+    .logo img {
+        width: 40px;
+        height: 40px;
+        margin-left: 10px;
+    }
+    .btn__menu {
+        width: 40px;
+    }
+    .btn__menu div {
+        margin-bottom: 5px;
+    }
+    #map iframe {
+        width: 273px;
+    }
+}
+
+@media (min-width: 728px) {
+    .menu__list {
+        display: flex !important;
+    }
+}
